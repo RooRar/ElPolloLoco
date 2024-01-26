@@ -394,7 +394,7 @@ class World {
     }
 
     endGame() {
-        audio_bgmusic.pause();
+        this.audio_bgmusic.pause();
         this.character.walking_sound.pause();
         setTimeout(() => {
             stopGame();
